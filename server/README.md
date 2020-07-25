@@ -30,10 +30,10 @@ POST "http://localhost:3003/"
 ```json
 {
 
-	"firstName":  string,
+	"firstName":  "string",
 
-	"lastName":  string,
+	"lastName":  "string",
 
-	"participation":  number
+	"participation":  "number"
 }
 ```
