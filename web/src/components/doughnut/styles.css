@@ -1,0 +1,7 @@
+.chart {
+  display: block;
+  min-width: 500px;
+  align-items: center;
+  justify-content: center;
+  margin: 56px 50px 56px 50px;
+}

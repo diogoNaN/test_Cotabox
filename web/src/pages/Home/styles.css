@@ -1,0 +1,121 @@
+#page-home {
+  height: 100vh;
+  min-width: 500px;
+}
+
+header {
+  max-height: 100px;
+  width: 100%;
+  padding: 56px 0 ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:#00B8E2;
+}
+
+header form {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header form fieldset{
+  display: contents;
+  
+}
+
+header form fieldset .field {
+  margin: 0 20px;
+  width: 100%;
+  
+}
+
+header form fieldset .field input {
+  max-width: 300px;
+  width: 100%;
+  height: 56px;
+
+  font-size: 20px;
+
+  border-radius: 6px;
+  border: 2px solid #B5B5B5;
+  padding: 20px;
+  color: #5C5C5C;
+}
+
+header form button {
+  height: 56px;
+  padding: 0 20px;
+  margin: 0 20px 0 0px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+
+  border: 2px solid #B5B5B5;
+  border-radius: 6px;
+
+  background-color: #35800d;
+  color: white;
+  cursor: pointer;
+}
+
+
+#page-home .content {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page-home .content .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 56px 0;
+}
+
+#page-home .content .info h1 {
+  margin-bottom: 24px;
+}
+
+#page-home .content .data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.data table {
+  border-collapse: collapse; 
+  width: 500px;
+  margin: 0 50px 0 50px;
+}
+
+table tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+table td:nth-child(3n+1) {
+  text-align: center;
+}
+table th:nth-child(3n+1) {
+  text-align: center;
+}
+
+table,th,td {
+  border: 1px solid #B5B5B5;
+}
+
+table th, td {
+  padding: 10px;
+  text-align: left;
+}
